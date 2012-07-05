@@ -19,11 +19,10 @@ Build-Depends: autotools-dev,
                libssl-dev,
                libxslt1-dev,
                po-debconf,
-               zlib1g-dev
                rake,
-               ruby1.9-dev,
+               ruby1.8-dev | ruby1.9.1-dev,
                rubygems,
-               rubygems1.9,
+               zlib1g-dev
 Standards-Version: 3.9.3
 Homepage: http://nginx.net
 Vcs-Git: git://anonscm.debian.org/collab-maint/nginx.git

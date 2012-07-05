@@ -29,10 +29,10 @@ export USE_VENDORED_LIBEV = false
 
 FLAVOURS:=full light extras naxsi iscool
 
-#ifneq ($(DEB_BUILD_ARCH_OS),hurd)
-#  FLAVOURS+=passenger
-#  BUILDDIR_passenger = $(CURDIR)/debian/build-passenger
-#endif
+ifneq ($(DEB_BUILD_ARCH_OS),hurd)
+  FLAVOURS+=passenger
+  BUILDDIR_passenger = $(CURDIR)/debian/build-passenger
+endif
 
 BUILDDIR_full = $(CURDIR)/debian/build-full
 BUILDDIR_light = $(CURDIR)/debian/build-light
