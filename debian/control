@@ -30,7 +30,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summar
 
 Package: nginx
 Architecture: all
-Depends: nginx-full | nginx-light,
+Depends: nginx-full | nginx-light | nginx-iscool,
          ${misc:Depends}
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
