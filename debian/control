@@ -30,7 +30,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summar
 
 Package: nginx
 Architecture: all
-Depends: nginx-full | nginx-light,
+Depends: nginx-full | nginx-light | nginx-iscool,
          ${misc:Depends}
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
@@ -81,6 +81,7 @@ Provides: httpd,
           nginx
 Conflicts: nginx-extras,
            nginx-light,
+           nginx-iscool,
            nginx-naxsi,
            nginx-passenger
 Description: nginx web/proxy server (standard version)
@@ -115,6 +116,7 @@ Depends: nginx-full (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: nginx-extras-dbg,
            nginx-light-dbg,
+           nginx-iscool-dbg,
            nginx-naxsi-dbg,
            nginx-passenger-dbg
 Description: nginx web/proxy server (standard version) - debugging symbols
@@ -135,6 +137,7 @@ Provides: httpd,
           nginx
 Conflicts: nginx-extras,
            nginx-full,
+           nginx-iscool,
            nginx-naxsi,
            nginx-passenger
 Description: nginx web/proxy server (basic version)
@@ -162,6 +165,7 @@ Depends: nginx-light (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: nginx-extras-dbg,
            nginx-full-dbg,
+           nginx-iscool-dbg,
            nginx-naxsi-dbg,
            nginx-passenger-dbg
 Description: nginx web/proxy server (basic version) - debugging symbols
@@ -184,6 +188,7 @@ Provides: httpd,
           nginx
 Conflicts: nginx-full,
            nginx-light,
+           nginx-iscool,
            nginx-naxsi,
            nginx-passenger
 Description: nginx web/proxy server (extended version)
@@ -220,6 +225,7 @@ Depends: nginx-extras (= ${binary:Version}),
          ${misc:Depends}
 Conflicts: nginx-full-dbg,
            nginx-light-dbg,
+           nginx-iscool,
            nginx-naxsi-dbg,
            nginx-passenger-dbg
 Description: nginx web/proxy server (extended version) - debugging symbols
@@ -242,6 +248,7 @@ Provides: httpd,
 Conflicts: nginx-extras,
            nginx-full,
            nginx-light,
+           nginx-iscool,
            nginx-passenger
 Description: nginx web/proxy server (version with naxsi)
  Nginx ("engine X") is a high-performance web and reverse proxy server
@@ -271,6 +278,7 @@ Depends: nginx-naxsi (= ${binary:Version}),
 Conflicts: nginx-extras-dbg,
            nginx-full-dbg,
            nginx-light-dbg,
+           nginx-iscool-dbg,
            nginx-passenger-dbg
 Description: nginx web/proxy server (version with naxsi) - debugging symbols
  Nginx ("engine X") is a high-performance web and reverse proxy server
@@ -297,6 +305,7 @@ Provides: httpd,
 Conflicts: nginx-extras,
            nginx-full,
            nginx-light,
+           nginx-iscool,
            nginx-passenger
 Description: nginx web/proxy server - naxsi configuration front-end
  Nginx ("engine X") is a high-performance web and reverse proxy server
@@ -322,6 +331,7 @@ Provides: httpd,
 Conflicts: nginx-extras,
            nginx-full,
            nginx-light,
+           nginx-iscool,
            nginx-naxsi
 Description: nginx web/proxy server (Passenger version)
  Nginx ("engine X") is a high-performance web and reverse proxy server
@@ -356,6 +366,7 @@ Depends: nginx-passenger (= ${binary:Version}),
 Conflicts: nginx-extras-dbg,
            nginx-full-dbg,
            nginx-light-dbg,
+           nginx-iscool-dbg,
            nginx-naxsi-dbg
 Description: nginx web/proxy server (Passenger version) - debugging symbols
  Nginx ("engine X") is a high-performance web and reverse proxy server
