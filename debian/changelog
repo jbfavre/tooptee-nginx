@@ -1,3 +1,9 @@
+nginx (1.2.3-1~tooptee12+1) precise; urgency=low
+
+  * New upstream version 1.2.3 
+
+ -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Tue, 07 Aug 2012 16:14:45 +0200
+
 nginx (1.2.2-1~tooptee12+1) precise; urgency=low
 
   * dotBuntu build for Ubuntu 12.04 Precise
