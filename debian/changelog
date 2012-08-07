@@ -1,3 +1,9 @@
+nginx (1.2.3-1~tooptee10+1) lucid; urgency=low
+
+  * New upstream version 1.2.3
+
+ -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Tue, 07 Aug 2012 16:18:16 +0200
+
 nginx (1.2.2-1~tooptee10+1) lucid; urgency=low
 
   * dotBuntu build for Ubuntu 10.04 Lucid
