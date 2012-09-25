@@ -1,2 +1,2 @@
 version=3
-http://nginx.org/download/nginx-(.+)\.tar\.gz
+http://nginx.org/download/nginx-(1\.2\..+)\.tar\.gz
