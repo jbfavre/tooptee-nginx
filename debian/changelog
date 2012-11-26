@@ -1,3 +1,9 @@
+nginx (1.2.5-1~tooptee10+1) lucid; urgency=low
+
+  * New upstream version 1.2.5
+
+ -- Jean Baptiste Favre <jbfavre@tooptee.org>  Mon, 26 Nov 2012 21:20:41 +0100
+
 nginx (1.2.4-1~tooptee10+1) lucid; urgency=low
 
   * New upstream version 1.2.4
