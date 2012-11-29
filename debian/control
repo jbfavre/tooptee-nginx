@@ -1,7 +1,7 @@
 Source: nginx
 Section: httpd
 Priority: optional
-Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Maintainer: Jean Baptiste Favre <ubuntu@jbfave.org>
 Build-Depends: autotools-dev,
                debhelper (>= 7),
                hardening-wrapper,
