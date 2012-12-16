@@ -1,3 +1,9 @@
+nginx (1.2.6-1~tooptee10+1) lucid; urgency=low
+
+  * New upstream version 1.2.6
+
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Sun, 16 Dec 2012 14:50:39 +0100
+
 nginx (1.2.5-1~tooptee10+1) lucid; urgency=low
 
   * New upstream version 1.2.5
