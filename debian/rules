@@ -312,7 +312,7 @@ config.status.iscool: config.env.iscool config.sub config.guess
 	    --add-module=$(MODULESDIR)/nginx-upstream-fair \
 	    --add-module=$(MODULESDIR)/nginx-syslog \
 	    --add-module=$(MODULESDIR)/nginx-pinba \
-	    --add-module=$(MODULESDIR)/request-unique-id \
+	    --add-module=$(MODULESDIR)/request-unique-id --with-ld-opt=-lossp-uuid --with-cc-opt=-I/usr/include/ossp \
 	    --add-module=$(MODULESDIR)/nginx-php-session \
 	    $(CONFIGURE_OPTS) >$@
 	touch $@
