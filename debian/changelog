@@ -1,3 +1,15 @@
+nginx (1.2.7-1~tooptee12+1) precise; urgency=low
+
+  * New upstream version 1.2.7
+  * New naxsi upstream version 0.48
+  * New ruby passenger version 3.0.19
+  * New upload module version 2.2
+  * Move some modules as git submodules
+  * Add new modules: ngx_http_php_session for flavor IsCool
+  * Add new modules: nginx-x-rid-header for flavor IsCool
+
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Tue, 12 Feb 2013 17:35:08 +0100
+
 nginx (1.2.6-1~tooptee12+1) precise; urgency=low
 
   * New upstream version 1.2.6
