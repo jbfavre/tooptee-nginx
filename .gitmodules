@@ -22,3 +22,6 @@
 [submodule "debian/modules/nginx-pinba"]
 	path = debian/modules/nginx-pinba
 	url = https://github.com/tony2001/ngx_http_pinba_module
+[submodule "debian/modules/nginx-push-stream-module"]
+	path = debian/modules/nginx-push-stream-module
+	url = https://github.com/wandenberg/nginx-push-stream-module
