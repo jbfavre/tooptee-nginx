@@ -40,3 +40,6 @@
 [submodule "debian/modules/request-unique-id"]
 	path = debian/modules/request-unique-id
 	url = https://github.com/newobj/nginx-x-rid-header.git
+[submodule "debian/modules/nginx-php-session"]
+	path = debian/modules/nginx-php-session
+	url = https://github.com/replay/ngx_http_php_session.git
