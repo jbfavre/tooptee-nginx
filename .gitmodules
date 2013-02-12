@@ -28,3 +28,6 @@
 [submodule "debian/modules/nginx-upload"]
 	path = debian/modules/nginx-upload
 	url = https://github.com/vkholodkov/nginx-upload-module
+[submodule "debian/modules/nginx-upload-progress"]
+	path = debian/modules/nginx-upload-progress
+	url = https://github.com/masterzen/nginx-upload-progress-module
