@@ -34,3 +34,6 @@
 [submodule "debian/modules/nginx-upstream-fair"]
 	path = debian/modules/nginx-upstream-fair
 	url = https://github.com/gnosek/nginx-upstream-fair
+[submodule "debian/modules/ruby-passenger"]
+	path = debian/modules/ruby-passenger
+	url = https://github.com/FooBarWidget/passenger
