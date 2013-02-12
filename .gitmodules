@@ -37,3 +37,6 @@
 [submodule "debian/modules/ruby-passenger"]
 	path = debian/modules/ruby-passenger
 	url = https://github.com/FooBarWidget/passenger
+[submodule "debian/modules/request-unique-id"]
+	path = debian/modules/request-unique-id
+	url = https://github.com/newobj/nginx-x-rid-header.git
