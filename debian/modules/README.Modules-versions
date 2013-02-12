@@ -16,11 +16,3 @@ README for Modules versions
  naxsi
   Homepage: http://code.google.com/p/naxsi/
   Version: 0.47
-
- ruby-passenger
-  Homepage: http://www.modrails.com/
-  Version: 3.0.13
-    cd ruby-passenger-3.0.13
-    rm -rf debian/ rpm/ test/ .pc/
-    cd ..
-    rsync -av ruby-passenger-3.0.13/ /path/to/nginx/debian/modules/ruby-passenger
