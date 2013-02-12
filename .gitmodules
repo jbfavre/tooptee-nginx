@@ -31,3 +31,6 @@
 [submodule "debian/modules/nginx-upload-progress"]
 	path = debian/modules/nginx-upload-progress
 	url = https://github.com/masterzen/nginx-upload-progress-module
+[submodule "debian/modules/nginx-upstream-fair"]
+	path = debian/modules/nginx-upstream-fair
+	url = https://github.com/gnosek/nginx-upstream-fair
