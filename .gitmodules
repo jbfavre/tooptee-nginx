@@ -19,3 +19,6 @@
 [submodule "debian/modules/nginx-lua"]
 	path = debian/modules/nginx-lua
 	url = https://github.com/chaoslawful/lua-nginx-module
+[submodule "debian/modules/nginx-pinba"]
+	path = debian/modules/nginx-pinba
+	url = https://github.com/tony2001/ngx_http_pinba_module
