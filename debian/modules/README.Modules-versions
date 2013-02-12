@@ -22,11 +22,6 @@ README for Modules versions
   rm -r debian/nginx-upload-progress/test
   Version: v0.9.0-0-ga788dea
 
- nginx-push-stream-module
-  Homepage: https://github.com/wandenberg/nginx-push-stream-module
-  https://github.com/wandenberg/nginx-push-stream-module.git
-  Version: a690c2e0d3
-
  nginx-syslog
   Homepage: https://github.com/yaoweibin/nginx_syslog_patch
   https://raw.github.com/yaoweibin/nginx_syslog_patch/master/syslog_0.8.54.patch
