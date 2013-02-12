@@ -1,0 +1,3 @@
+[submodule "debian/modules/chunkin-nginx-module"]
+	path = debian/modules/chunkin-nginx-module
+	url = https://github.com/agentzh/chunkin-nginx-module
