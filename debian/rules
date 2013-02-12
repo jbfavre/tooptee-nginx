@@ -312,6 +312,7 @@ config.status.iscool: config.env.iscool config.sub config.guess
 	    --add-module=$(MODULESDIR)/nginx-upstream-fair \
 	    --add-module=$(MODULESDIR)/nginx-syslog \
 	    --add-module=$(MODULESDIR)/nginx-pinba \
+	    --add-module=$(MODULESDIR)/request-unique-id \
 	    $(CONFIGURE_OPTS) >$@
 	touch $@
 
