@@ -4,3 +4,6 @@
 [submodule "debian/modules/headers-more-nginx-module"]
 	path = debian/modules/headers-more-nginx-module
 	url = https://github.com/agentzh/headers-more-nginx-module
+[submodule "debian/modules/nginx-cache-purge"]
+	path = debian/modules/nginx-cache-purge
+	url = https://github.com/FRiCKLE/ngx_cache_purge
