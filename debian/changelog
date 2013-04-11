@@ -1,3 +1,9 @@
+nginx (1.2.8-1~tooptee12+1) precise; urgency=low
+
+  * New upstream version 1.2.8
+
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Thu, 11 Apr 2013 11:43:00 +0200
+
 nginx (1.2.7-1~tooptee12+1) precise; urgency=low
 
   * New upstream version 1.2.7
